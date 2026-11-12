@@ -37,3 +37,8 @@ Thumbs.db
 /.tools/
 ExamPanel.portable
 src-tauri/gen/schemas/linux-schema.json
+
+# Award submission working files and archives
+docs/edu/submission/
+docs/edu/*.7z
+docs/edu/**/*.zip
