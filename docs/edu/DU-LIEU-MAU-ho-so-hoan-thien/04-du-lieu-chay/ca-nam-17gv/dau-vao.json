@@ -1,0 +1,757 @@
+{
+ "_ghi_chu": "Phương án thủ công: bảng phân công trong biên bản họp tổ (đã đối chiếu cột Tổng lượt n.vụ, khớp toàn bộ người có trong bảng), tên GV thay bằng mã. Phân hiệu và tình trạng hợp đồng: do tác giả cung cấp. Khối dạy của GV01–GV11 được SUY RA từ chính bảng thủ công (chưa đối chiếu thời khoá biểu). Quy tắc: GV Công nghệ ra đề cả 3 khối; GV Công nghệ không phản biện Công nghệ; GV Vật lí phản biện Vật lí đúng khối đang dạy; GV Vật lí có thể phản biện Công nghệ mọi khối. GV18, GV19 là cán bộ quản lí, không tham gia ban ra đề nên không có trong dữ liệu. Tệp này: 17 GV thực tế có thể tham gia (GV13 chỉ CK2; GV14–17 từ CK1); khối dạy của GV13–17 chưa biết nên đặt đủ 10–12; phương án thủ công vẫn chỉ gồm 12 GV.",
+ "campuses": [
+  "PH1",
+  "PH2",
+  "PH3",
+  "PH4"
+ ],
+ "min_campuses": {
+  "VL": 1,
+  "CN": 1
+ },
+ "teachers": [
+  {
+   "code": "GV01",
+   "campus": "PH1",
+   "setter": [
+    "VL"
+   ],
+   "reviewer": [
+    "VL",
+    "CN"
+   ],
+   "unavailable": [],
+   "grades": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "code": "GV02",
+   "campus": "PH4",
+   "setter": [
+    "VL"
+   ],
+   "reviewer": [
+    "VL",
+    "CN"
+   ],
+   "unavailable": [],
+   "grades": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "code": "GV03",
+   "campus": "PH2",
+   "setter": [
+    "VL"
+   ],
+   "reviewer": [
+    "VL",
+    "CN"
+   ],
+   "unavailable": [],
+   "grades": [
+    10,
+    11
+   ]
+  },
+  {
+   "code": "GV04",
+   "campus": "PH2",
+   "setter": [
+    "VL"
+   ],
+   "reviewer": [
+    "VL",
+    "CN"
+   ],
+   "unavailable": [],
+   "grades": [
+    10
+   ]
+  },
+  {
+   "code": "GV05",
+   "campus": "PH2",
+   "setter": [
+    "VL"
+   ],
+   "reviewer": [
+    "VL",
+    "CN"
+   ],
+   "unavailable": [],
+   "grades": [
+    12
+   ]
+  },
+  {
+   "code": "GV06",
+   "campus": "PH2",
+   "setter": [
+    "VL"
+   ],
+   "reviewer": [
+    "VL",
+    "CN"
+   ],
+   "unavailable": [],
+   "grades": [
+    11,
+    12
+   ]
+  },
+  {
+   "code": "GV07",
+   "campus": "PH2",
+   "setter": [
+    "VL"
+   ],
+   "reviewer": [
+    "VL",
+    "CN"
+   ],
+   "unavailable": [],
+   "grades": [
+    10
+   ]
+  },
+  {
+   "code": "GV08",
+   "campus": "PH2",
+   "setter": [
+    "VL"
+   ],
+   "reviewer": [
+    "VL",
+    "CN"
+   ],
+   "unavailable": [],
+   "grades": [
+    11
+   ]
+  },
+  {
+   "code": "GV09",
+   "campus": "PH3",
+   "setter": [
+    "VL"
+   ],
+   "reviewer": [
+    "VL",
+    "CN"
+   ],
+   "unavailable": [],
+   "grades": [
+    10,
+    12
+   ]
+  },
+  {
+   "code": "GV10",
+   "campus": "PH3",
+   "setter": [
+    "VL"
+   ],
+   "reviewer": [
+    "VL",
+    "CN"
+   ],
+   "unavailable": [],
+   "grades": [
+    10,
+    11
+   ]
+  },
+  {
+   "code": "GV11",
+   "campus": "PH3",
+   "setter": [
+    "VL"
+   ],
+   "reviewer": [
+    "VL",
+    "CN"
+   ],
+   "unavailable": [],
+   "grades": [
+    11,
+    12
+   ]
+  },
+  {
+   "code": "GV12",
+   "campus": "PH1",
+   "setter": [
+    "CN"
+   ],
+   "reviewer": [],
+   "unavailable": [],
+   "grades": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "code": "GV13",
+   "campus": "PH1",
+   "setter": [
+    "VL"
+   ],
+   "reviewer": [
+    "VL",
+    "CN"
+   ],
+   "unavailable": [
+    "GK1",
+    "CK1",
+    "GK2"
+   ]
+  },
+  {
+   "code": "GV14",
+   "campus": "PH4",
+   "setter": [
+    "VL"
+   ],
+   "reviewer": [
+    "VL",
+    "CN"
+   ],
+   "unavailable": [
+    "GK1"
+   ]
+  },
+  {
+   "code": "GV15",
+   "campus": "PH4",
+   "setter": [
+    "VL"
+   ],
+   "reviewer": [
+    "VL",
+    "CN"
+   ],
+   "unavailable": [
+    "GK1"
+   ]
+  },
+  {
+   "code": "GV16",
+   "campus": "PH4",
+   "setter": [
+    "VL"
+   ],
+   "reviewer": [
+    "VL",
+    "CN"
+   ],
+   "unavailable": [
+    "GK1"
+   ]
+  },
+  {
+   "code": "GV17",
+   "campus": "PH4",
+   "setter": [
+    "VL"
+   ],
+   "reviewer": [
+    "VL",
+    "CN"
+   ],
+   "unavailable": [
+    "GK1"
+   ]
+  }
+ ],
+ "manual_plan": [
+  {
+   "exam": "GK1",
+   "grade": 10,
+   "subject": "VL",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV01"
+  },
+  {
+   "exam": "GK1",
+   "grade": 10,
+   "subject": "VL",
+   "role": "setter",
+   "position": 1,
+   "teacher": "GV02"
+  },
+  {
+   "exam": "GK1",
+   "grade": 10,
+   "subject": "CN",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV12"
+  },
+  {
+   "exam": "GK1",
+   "grade": 10,
+   "subject": "VL",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV09"
+  },
+  {
+   "exam": "GK1",
+   "grade": 10,
+   "subject": "CN",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV01"
+  },
+  {
+   "exam": "GK1",
+   "grade": 11,
+   "subject": "VL",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV03"
+  },
+  {
+   "exam": "GK1",
+   "grade": 11,
+   "subject": "VL",
+   "role": "setter",
+   "position": 1,
+   "teacher": "GV08"
+  },
+  {
+   "exam": "GK1",
+   "grade": 11,
+   "subject": "CN",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV12"
+  },
+  {
+   "exam": "GK1",
+   "grade": 11,
+   "subject": "VL",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV10"
+  },
+  {
+   "exam": "GK1",
+   "grade": 11,
+   "subject": "CN",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV02"
+  },
+  {
+   "exam": "GK1",
+   "grade": 12,
+   "subject": "VL",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV06"
+  },
+  {
+   "exam": "GK1",
+   "grade": 12,
+   "subject": "VL",
+   "role": "setter",
+   "position": 1,
+   "teacher": "GV09"
+  },
+  {
+   "exam": "GK1",
+   "grade": 12,
+   "subject": "CN",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV12"
+  },
+  {
+   "exam": "GK1",
+   "grade": 12,
+   "subject": "VL",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV11"
+  },
+  {
+   "exam": "GK1",
+   "grade": 12,
+   "subject": "CN",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV03"
+  },
+  {
+   "exam": "CK1",
+   "grade": 10,
+   "subject": "VL",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV01"
+  },
+  {
+   "exam": "CK1",
+   "grade": 10,
+   "subject": "VL",
+   "role": "setter",
+   "position": 1,
+   "teacher": "GV04"
+  },
+  {
+   "exam": "CK1",
+   "grade": 10,
+   "subject": "CN",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV12"
+  },
+  {
+   "exam": "CK1",
+   "grade": 10,
+   "subject": "VL",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV07"
+  },
+  {
+   "exam": "CK1",
+   "grade": 10,
+   "subject": "CN",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV04"
+  },
+  {
+   "exam": "CK1",
+   "grade": 11,
+   "subject": "VL",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV02"
+  },
+  {
+   "exam": "CK1",
+   "grade": 11,
+   "subject": "VL",
+   "role": "setter",
+   "position": 1,
+   "teacher": "GV06"
+  },
+  {
+   "exam": "CK1",
+   "grade": 11,
+   "subject": "CN",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV12"
+  },
+  {
+   "exam": "CK1",
+   "grade": 11,
+   "subject": "VL",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV08"
+  },
+  {
+   "exam": "CK1",
+   "grade": 11,
+   "subject": "CN",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV05"
+  },
+  {
+   "exam": "CK1",
+   "grade": 12,
+   "subject": "VL",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV05"
+  },
+  {
+   "exam": "CK1",
+   "grade": 12,
+   "subject": "VL",
+   "role": "setter",
+   "position": 1,
+   "teacher": "GV11"
+  },
+  {
+   "exam": "CK1",
+   "grade": 12,
+   "subject": "CN",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV12"
+  },
+  {
+   "exam": "CK1",
+   "grade": 12,
+   "subject": "VL",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV02"
+  },
+  {
+   "exam": "CK1",
+   "grade": 12,
+   "subject": "CN",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV06"
+  },
+  {
+   "exam": "GK2",
+   "grade": 10,
+   "subject": "VL",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV04"
+  },
+  {
+   "exam": "GK2",
+   "grade": 10,
+   "subject": "VL",
+   "role": "setter",
+   "position": 1,
+   "teacher": "GV07"
+  },
+  {
+   "exam": "GK2",
+   "grade": 10,
+   "subject": "CN",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV12"
+  },
+  {
+   "exam": "GK2",
+   "grade": 10,
+   "subject": "VL",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV03"
+  },
+  {
+   "exam": "GK2",
+   "grade": 10,
+   "subject": "CN",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV07"
+  },
+  {
+   "exam": "GK2",
+   "grade": 11,
+   "subject": "VL",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV10"
+  },
+  {
+   "exam": "GK2",
+   "grade": 11,
+   "subject": "VL",
+   "role": "setter",
+   "position": 1,
+   "teacher": "GV08"
+  },
+  {
+   "exam": "GK2",
+   "grade": 11,
+   "subject": "CN",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV12"
+  },
+  {
+   "exam": "GK2",
+   "grade": 11,
+   "subject": "VL",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV01"
+  },
+  {
+   "exam": "GK2",
+   "grade": 11,
+   "subject": "CN",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV08"
+  },
+  {
+   "exam": "GK2",
+   "grade": 12,
+   "subject": "VL",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV05"
+  },
+  {
+   "exam": "GK2",
+   "grade": 12,
+   "subject": "VL",
+   "role": "setter",
+   "position": 1,
+   "teacher": "GV02"
+  },
+  {
+   "exam": "GK2",
+   "grade": 12,
+   "subject": "CN",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV12"
+  },
+  {
+   "exam": "GK2",
+   "grade": 12,
+   "subject": "VL",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV11"
+  },
+  {
+   "exam": "GK2",
+   "grade": 12,
+   "subject": "CN",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV09"
+  },
+  {
+   "exam": "CK2",
+   "grade": 10,
+   "subject": "VL",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV10"
+  },
+  {
+   "exam": "CK2",
+   "grade": 10,
+   "subject": "VL",
+   "role": "setter",
+   "position": 1,
+   "teacher": "GV07"
+  },
+  {
+   "exam": "CK2",
+   "grade": 10,
+   "subject": "CN",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV12"
+  },
+  {
+   "exam": "CK2",
+   "grade": 10,
+   "subject": "VL",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV04"
+  },
+  {
+   "exam": "CK2",
+   "grade": 10,
+   "subject": "CN",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV11"
+  },
+  {
+   "exam": "CK2",
+   "grade": 11,
+   "subject": "VL",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV03"
+  },
+  {
+   "exam": "CK2",
+   "grade": 11,
+   "subject": "VL",
+   "role": "setter",
+   "position": 1,
+   "teacher": "GV11"
+  },
+  {
+   "exam": "CK2",
+   "grade": 11,
+   "subject": "CN",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV12"
+  },
+  {
+   "exam": "CK2",
+   "grade": 11,
+   "subject": "VL",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV06"
+  },
+  {
+   "exam": "CK2",
+   "grade": 11,
+   "subject": "CN",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV10"
+  },
+  {
+   "exam": "CK2",
+   "grade": 12,
+   "subject": "VL",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV09"
+  },
+  {
+   "exam": "CK2",
+   "grade": 12,
+   "subject": "VL",
+   "role": "setter",
+   "position": 1,
+   "teacher": "GV01"
+  },
+  {
+   "exam": "CK2",
+   "grade": 12,
+   "subject": "CN",
+   "role": "setter",
+   "position": 0,
+   "teacher": "GV12"
+  },
+  {
+   "exam": "CK2",
+   "grade": 12,
+   "subject": "VL",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV05"
+  },
+  {
+   "exam": "CK2",
+   "grade": 12,
+   "subject": "CN",
+   "role": "reviewer",
+   "position": 0,
+   "teacher": "GV11"
+  }
+ ]
+}
